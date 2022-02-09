@@ -6,7 +6,7 @@ import { CTABanner } from '../cta/CTABanner';
 import { Section } from '../layout/Section';
 
 const Banner = () => (
-  <Background color="bg-primary-100">
+  <Background color="bg-gold-200">
     <Section yPadding="py-0">
       <CTABanner
         title="Lorem ipsum dolor sit amet consectetur adipisicing elit."
