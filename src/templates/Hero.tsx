@@ -23,11 +23,11 @@ const Hero = () => (
             <a>Docs</a>
           </Link>
         </li>
-        <li>
+        {/* <li>
           <Link href="/blog/">
             <a>Blog</a>
           </Link>
-        </li>
+        </li> */}
         <li>
           {/* More details at https://buttons.github.io/ */}
           <GitHubButton
