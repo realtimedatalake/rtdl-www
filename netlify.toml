@@ -1,6 +1,6 @@
 [[redirects]]
-  from = "/docs"
-  to = "https://rtdl-docs.netlify.app/:splat"
+  from = "/docs/*"
+  to = "https://rtdl-docs.netlify.app/docs/:splat"
   status = 200
   force = true
   headers = {X-From = "Netlify"}
