@@ -4,3 +4,10 @@
   status = 200
   force = true
   headers = {X-From = "Netlify"}
+
+[[redirects]]
+  from = "/blog/*"
+  to = "https://rtdl-blog.netlify.app/blog/:splat"
+  status = 200
+  force = true
+  headers = {X-From = "Netlify"}
