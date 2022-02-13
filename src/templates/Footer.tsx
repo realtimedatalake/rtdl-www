@@ -79,22 +79,22 @@ const Footer = () => (
       >
         <li>
           <Link href="/">
-            <a>Home</a>
+            <a>⚡️ Home</a>
           </Link>
         </li>
         <li>
-          <Link href="/docs/">
-            <a>Docs</a>
+          <Link href="https://rtdl.io/docs/">
+            <a>⚡️ Docs</a>
           </Link>
         </li>
-        {/* <li>
-          <Link href="/blog/">
-            <a>Blog</a>
+        <li>
+          <Link href="https://rtdl.io/blog">
+            <a>⚡️ Blog</a>
           </Link>
-        </li> */}
+        </li>
         <li>
           <Link href="https://github.com/realtimedatalake/rtdl">
-            <a>GitHub</a>
+            <a>⚡️ GitHub</a>
           </Link>
         </li>
       </CenteredFooter>
