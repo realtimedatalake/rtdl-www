@@ -55,6 +55,15 @@ const Meta = (props: IMetaProps) => {
           title: props.title,
           description: props.description,
           url: props.canonical,
+          images: [
+            {
+              url: '/assets/images/og-image.png',
+              width: 1200,
+              height: 630,
+              alt: 'rtld OG image',
+              type: 'image/png',
+            },
+          ],
           locale: AppConfig.locale,
           site_name: AppConfig.site_name,
         }}
