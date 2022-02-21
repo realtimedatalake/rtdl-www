@@ -5,4 +5,5 @@ export const AppConfig = {
     'rtdl makes it easy to build and maintain a real-time data lake.',
   locale: 'en',
   url: 'https://rtdl.io/',
+  twitter: 'https://twitter.com/rtdlio',
 };

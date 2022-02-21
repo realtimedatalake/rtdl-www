@@ -46,11 +46,15 @@ const Meta = (props: IMetaProps) => {
           href={`${router.basePath}/favicon.ico`}
           key="favicon"
         />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:site" content={AppConfig.twitter} />
+        <meta name="twitter:title" content={props.title} />
+        <meta name="twitter:description" content={props.description} />
+        <meta name="twitter:image" content="/assets/images/og-image.png" />
       </Head>
       <NextSeo
         title={props.title}
         description={props.description}
-        canonical={props.canonical}
         openGraph={{
           title: props.title,
           description: props.description,
