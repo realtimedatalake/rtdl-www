@@ -7,6 +7,7 @@ import { HeroOneButton } from '../hero/HeroOneButton';
 import { Section } from '../layout/Section';
 // import { NavbarTwoColumns } from '../navigation/NavbarTwoColumns';
 import { NavbarFourColumns } from '../navigation/NavbarFourColumns';
+import { AppConfig } from '../utils/AppConfig';
 import { Logo } from './Logo';
 
 const Hero = () => (
@@ -47,11 +48,11 @@ const Hero = () => (
       <HeroOneButton
         title={
           <>
-            <span className="text-primary-500">rtdl ⚡️</span>
+            <span className="text-primary-500">{AppConfig.site_name}</span>
             {'\nThe Real-Time Data Lake\n'}
           </>
         }
-        description="Making it easy to build and maintain a real-time data lake"
+        description={AppConfig.description}
         button={
           <Link href="https://github.com/realtimedatalake/rtdl">
             <a>
